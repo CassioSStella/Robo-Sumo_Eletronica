@@ -87,6 +87,278 @@
 			(outputdirectory "")
 		)
 	)
+	(footprint "TSOP1838:TSOP1838"
+		(layer "F.Cu")
+		(uuid "5948f976-e3d8-49a8-90b9-44370068ae83")
+		(at 118.3735 69.3335)
+		(property "Reference" "U3"
+			(at 0.635 -3.175 0)
+			(layer "F.SilkS")
+			(uuid "b1f3d45f-99d8-4215-ab11-3a555798541e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TSOP1838"
+			(at 2.54 4.445 0)
+			(layer "F.Fab")
+			(uuid "241cb963-1c02-4961-b83f-19a126fae96e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8df6151b-8908-4c4c-99a4-95d2313edc7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IR Remote Receiver 38KHz 35m 3-Pin"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21a5c23e-7a5a-4712-8d2d-50a94d53316a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Vishay"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "926ed01f-27a5-4b4a-b47a-6a76511625a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fd365c7-1eed-4c71-910e-11fed965ea61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dafbbba1-53d1-4731-9fbd-fbb3a0455a28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TSOP1838/Vishay/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fd571c9-9d4e-4e32-9392-934f26c1d8b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "TSOP1838"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58a6514c-282b-4c10-aec6-69f9e6dd44ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=561684&manufacturer=Vishay&part_name=TSOP1838&search_term=tsop1838"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d6f809a-d4c3-4b33-9725-69a45bd9a008")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d6a0aaa-2b2c-4aec-ac21-2ad24c043506")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TSOP1838/Vishay/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f727ff3f-55b3-4e15-bf08-f71e9868d5a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8962d69d-9eae-443c-a0df-6b0c8bb422fa")
+		(sheetname "/")
+		(sheetfile "Eletronica_v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -3.81 -1.27)
+			(end -3.81 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c54f2933-efce-48df-ae7f-92316b700e86")
+		)
+		(fp_line
+			(start -3.81 1.27)
+			(end -2.54 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "66985d01-1d36-4367-b7b2-81ff874a8cc3")
+		)
+		(fp_line
+			(start 2.54 1.27)
+			(end -2.54 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "775d50c9-519f-4fdd-b7a9-c4f113ce8602")
+		)
+		(fp_line
+			(start 2.54 1.27)
+			(end 3.81 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d010fb83-af7a-4f20-b865-07b75e638b78")
+		)
+		(fp_line
+			(start 3.81 -1.27)
+			(end -3.81 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f97d2a2f-0f61-454b-98d4-0a3ab1da7196")
+		)
+		(fp_line
+			(start 3.81 1.27)
+			(end 3.81 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "649316f7-dac2-4cb3-8ebf-853ba9a56706")
+		)
+		(fp_arc
+			(start 2.54 1.269999)
+			(mid 0 3.25318)
+			(end -2.54 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "78eb338f-565e-42e3-8228-f4902bf80938")
+		)
+		(pad "1" thru_hole circle
+			(at -2.54 0)
+			(size 1.9304 1.9304)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(U3-OUT-Pad1)")
+			(pinfunction "OUT_1")
+			(pintype "output")
+			(solder_mask_margin 0.102)
+			(uuid "e9cefda1-173d-41e8-b901-206c8f7b72c8")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.9304 1.9304)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(U3-GND-Pad2)")
+			(pinfunction "GND_2")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "1b68e747-0ce9-4e01-a6a3-c2cccbda9033")
+		)
+		(pad "3" thru_hole circle
+			(at 2.54 0)
+			(size 1.9304 1.9304)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(U3-VCC-Pad3)")
+			(pinfunction "VCC_3")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "f18ed26f-8e84-49fb-961a-aa7fb287319f")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Recursos_Kicad:esp32_devkit_v1_doit"
 		(layer "F.Cu")
 		(uuid "67982be3-ddf2-4ce5-b7f9-5e568f67f05d")
