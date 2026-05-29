@@ -1233,6 +1233,296 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Capacitor_AKL:CP_Radial_D5.0mm_P2.50mm"
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP_Radial_D5.0mm_P2.50mm"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Radial_D5.0mm_P2.50mm"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "THT Electrolytic Capacitor, 5.0mm Diameter, 2.50mm Pitch, European Symbol, Alternate KiCad Library"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor polarized eu tht radial electrolytic 5mm 2.50mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CP_Radial_D5.0mm_P2.50mm_0_1"
+				(rectangle
+					(start -2.286 1.016)
+					(end 2.286 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "CP_Radial_D5.0mm_P2.50mm_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -0.6604 -0.6604)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.8796 0.6096) (xy 0.6096 -1.8796) (xy 0.9652 -1.524) (xy -1.524 0.9652) (xy -1.8796 0.6096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9652 1.524) (xy 1.524 -0.9652) (xy 1.8796 -0.6096) (xy -0.6096 1.8796) (xy -0.9652 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 1.016 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.6604 0.6604) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP_Radial_D5.0mm_P2.50mm_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CP_Radial_D5.0mm_P2.50mm_1_2"
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "QTR-1A_REFLECTANCE_SENSOR:QTR-1A_REFLECTANCE_SENSOR"
 			(pin_names
 				(offset 1.016)
@@ -3597,22 +3887,10 @@
 		(uuid "0c5fd0d4-890b-4c65-a05a-f9853fdecaa1")
 	)
 	(junction
-		(at 35.56 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "104001b7-c90d-4887-a708-688730f860e3")
-	)
-	(junction
 		(at 201.93 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11c9c4bf-1e7a-482b-b6f0-9779f90ce250")
-	)
-	(junction
-		(at 35.56 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13682546-96e6-4fa9-a6c2-689d2214e5ce")
 	)
 	(junction
 		(at 171.45 67.31)
@@ -3627,22 +3905,16 @@
 		(uuid "176a6c81-0b6c-40bb-ae80-022bf41bb340")
 	)
 	(junction
-		(at 35.56 38.1)
+		(at 35.56 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "188ad049-a098-49b1-a84e-f8877cfa6ae1")
+		(uuid "2d73378e-78c8-4d21-b5c8-0e0726ae1420")
 	)
 	(junction
 		(at 125.73 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34dfe74a-249f-4494-a524-4505676a8491")
-	)
-	(junction
-		(at 35.56 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cf19dc3-3974-44db-8046-f5d5248e30da")
 	)
 	(junction
 		(at 176.53 105.41)
@@ -3657,10 +3929,28 @@
 		(uuid "4754c54b-3743-4444-99ef-3602baf2161d")
 	)
 	(junction
+		(at 35.56 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d0fa158-e9dd-49d8-b453-85dc6ed65468")
+	)
+	(junction
+		(at 35.56 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68746d51-7122-4d61-9fa7-3b86f3203101")
+	)
+	(junction
 		(at 50.8 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bcb5f07-0666-458c-98c0-d2b86fdae7d4")
+	)
+	(junction
+		(at 35.56 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71a6602f-99b6-4136-bc83-9cd6557d6fb0")
 	)
 	(junction
 		(at 130.81 95.25)
@@ -3681,22 +3971,10 @@
 		(uuid "9808f376-f295-430c-9512-00eb6be881c5")
 	)
 	(junction
-		(at 260.35 38.1)
+		(at 35.56 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "99c58318-4f21-48d9-855a-e1c452d83426")
-	)
-	(junction
-		(at 35.56 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e5bd370-40d9-4b43-a6d6-25306ac259a2")
-	)
-	(junction
-		(at 264.16 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a932d3ee-5538-42bb-85d1-ae91b5190669")
+		(uuid "a368b192-442b-42cb-9b0c-b970b744fced")
 	)
 	(junction
 		(at 67.31 152.4)
@@ -3723,28 +4001,22 @@
 		(uuid "c54a8f3f-360b-46ba-b6bf-f8fc9668c41d")
 	)
 	(junction
+		(at 35.56 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6b7a9ec-dcb8-49ee-baa0-036478dba39f")
+	)
+	(junction
 		(at 107.95 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7f06e32-e1dd-4473-a8d7-67bc1106fd8e")
 	)
 	(junction
-		(at 256.54 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c864342d-4d4f-403b-a2fe-2bcca8860aaa")
-	)
-	(junction
 		(at 130.81 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e942e251-4f66-4b5f-91d6-bea88540d0c0")
-	)
-	(junction
-		(at 35.56 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec54320a-0704-4079-af56-d0d033ad8a1d")
 	)
 	(junction
 		(at 116.84 173.99)
@@ -3845,7 +4117,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 44.45) (xy 33.02 44.45)
+			(xy 33.02 44.45) (xy 35.56 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3863,6 +4135,16 @@
 			(color 72 72 72 1)
 		)
 		(uuid "14739e52-94e6-48d9-a29a-44457f6f20ee")
+	)
+	(wire
+		(pts
+			(xy 33.02 59.69) (xy 35.56 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200a2b7d-891a-44ed-9f24-acfa93d19a8c")
 	)
 	(polyline
 		(pts
@@ -3939,6 +4221,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 59.69) (xy 45.72 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dce6eb1-1043-4560-bcf1-4dbc5ff49b1b")
+	)
+	(wire
+		(pts
 			(xy 67.31 87.63) (xy 67.31 90.17)
 		)
 		(stroke
@@ -3949,16 +4241,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 38.1) (xy 35.56 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2edb92e7-e513-4746-8a1f-4f3070853daa")
-	)
-	(wire
-		(pts
 			(xy 67.31 167.64) (xy 67.31 176.53)
 		)
 		(stroke
@@ -3966,6 +4248,16 @@
 			(type default)
 		)
 		(uuid "2f354c7b-5158-4ffe-b5b4-296a1cffbda8")
+	)
+	(wire
+		(pts
+			(xy 35.56 52.07) (xy 45.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f40726f-cfc3-41c0-9d01-989d06a4c0f8")
 	)
 	(polyline
 		(pts
@@ -4000,6 +4292,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 38.1) (xy 45.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31296e86-93d0-4933-908c-0c5736753f6e")
+	)
+	(wire
+		(pts
 			(xy 130.81 95.25) (xy 130.81 96.52)
 		)
 		(stroke
@@ -4017,16 +4319,6 @@
 			(type default)
 		)
 		(uuid "350e8c79-3e49-4ba4-89f0-ed3229d70fc3")
-	)
-	(wire
-		(pts
-			(xy 260.35 38.1) (xy 264.16 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3592d984-a2a3-45d3-87ed-a4dc79f61571")
 	)
 	(wire
 		(pts
@@ -4123,16 +4415,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 38.1) (xy 256.54 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d4a90b1-0e85-40a0-8943-2b945dbd2078")
-	)
-	(wire
-		(pts
 			(xy 130.81 105.41) (xy 135.89 105.41)
 		)
 		(stroke
@@ -4160,6 +4442,16 @@
 			(type default)
 		)
 		(uuid "52b5aa2d-5356-4ad9-9687-83d75ea5d23b")
+	)
+	(wire
+		(pts
+			(xy 33.02 30.48) (xy 35.56 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531665a8-1496-45de-9b6d-cc043c4a9ed6")
 	)
 	(polyline
 		(pts
@@ -4202,16 +4494,6 @@
 		)
 		(uuid "59a42c85-e4eb-4b5c-a9d3-a17a5b0b5937")
 	)
-	(wire
-		(pts
-			(xy 35.56 38.1) (xy 45.72 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5afa63f6-8ff0-4bc9-a668-2f8e5195b9d6")
-	)
 	(polyline
 		(pts
 			(xy 191.77 119.38) (xy 191.77 81.28)
@@ -4222,16 +4504,6 @@
 			(color 72 72 72 1)
 		)
 		(uuid "5bb106f6-c016-49a8-a2ab-33094b739387")
-	)
-	(wire
-		(pts
-			(xy 45.72 59.69) (xy 35.56 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cbf44ab-e4d5-48fb-95ec-99568c2441e4")
 	)
 	(wire
 		(pts
@@ -4293,6 +4565,16 @@
 		)
 		(uuid "69a8950e-99a3-4afe-ba31-b3975156f414")
 	)
+	(wire
+		(pts
+			(xy 35.56 30.48) (xy 45.72 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1c432a-034f-4f4b-8d3a-6c4231198a7a")
+	)
 	(polyline
 		(pts
 			(xy 92.71 81.28) (xy 92.71 83.82)
@@ -4316,6 +4598,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 67.31) (xy 45.72 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704decaa-4a5d-4116-b2fe-99a69ae009f9")
+	)
+	(wire
+		(pts
 			(xy 201.93 147.32) (xy 201.93 151.13)
 		)
 		(stroke
@@ -4323,16 +4615,6 @@
 			(type default)
 		)
 		(uuid "74353cc4-432e-4da1-8fd3-bc6e441a5194")
-	)
-	(wire
-		(pts
-			(xy 245.11 45.72) (xy 256.54 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74884442-8e39-48d1-a482-8b94985dbb3f")
 	)
 	(wire
 		(pts
@@ -4355,6 +4637,16 @@
 		)
 		(uuid "76ed56e8-019d-4d75-a5a4-597b55dfa21e")
 	)
+	(wire
+		(pts
+			(xy 35.56 44.45) (xy 45.72 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7760aa81-2e18-4fa2-990f-fd314101588a")
+	)
 	(polyline
 		(pts
 			(xy 195.58 21.59) (xy 276.86 21.59)
@@ -4365,16 +4657,6 @@
 			(color 72 72 72 1)
 		)
 		(uuid "79268c3e-d04a-45e5-8c86-4054653609d5")
-	)
-	(wire
-		(pts
-			(xy 264.16 45.72) (xy 269.24 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b817bd6-dfe2-4726-aebd-057da892935c")
 	)
 	(wire
 		(pts
@@ -4449,16 +4731,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 52.07) (xy 45.72 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a08f212-a8fc-43bb-aa59-19346e5056f3")
-	)
-	(wire
-		(pts
 			(xy 186.69 149.86) (xy 186.69 151.13)
 		)
 		(stroke
@@ -4509,16 +4781,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 44.45) (xy 35.56 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9909401e-bc9e-4bab-9903-db0471cf9ac6")
-	)
-	(wire
-		(pts
 			(xy 58.42 171.45) (xy 58.42 176.53)
 		)
 		(stroke
@@ -4546,16 +4808,6 @@
 			(type default)
 		)
 		(uuid "a02be2f1-c9ae-454d-aef8-9af9adddfbfb")
-	)
-	(wire
-		(pts
-			(xy 245.11 39.37) (xy 245.11 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a02d6c83-3f8f-4bdc-aaf9-6d0da1c7e44c")
 	)
 	(wire
 		(pts
@@ -4631,13 +4883,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 59.69) (xy 33.02 59.69)
+			(xy 31.75 67.31) (xy 35.56 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab977f22-db35-4af8-b1d6-e037a3bb2333")
+		(uuid "abe88c70-7e72-4b95-9505-2d9b318a41cd")
 	)
 	(wire
 		(pts
@@ -4721,13 +4973,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 67.31) (xy 35.56 67.31)
+			(xy 31.75 52.07) (xy 35.56 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc4fd20e-77d1-4121-b268-38513592b0e0")
+		(uuid "bc0328df-62d3-49a6-b505-562887be1c4f")
 	)
 	(wire
 		(pts
@@ -4778,6 +5030,16 @@
 			(type default)
 		)
 		(uuid "c5dcff38-2e94-4080-8a88-2557e30f912c")
+	)
+	(wire
+		(pts
+			(xy 33.02 38.1) (xy 35.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d22339-47a5-4449-bc53-aee0548b4935")
 	)
 	(polyline
 		(pts
@@ -4834,16 +5096,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 52.07) (xy 35.56 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf9a63be-622d-4ba0-b6c5-36e8952c9797")
-	)
-	(wire
-		(pts
 			(xy 22.86 100.33) (xy 22.86 104.14)
 		)
 		(stroke
@@ -4851,16 +5103,6 @@
 			(type default)
 		)
 		(uuid "d4e091b5-a1e9-4afa-b3e2-acf4939e2dec")
-	)
-	(wire
-		(pts
-			(xy 35.56 30.48) (xy 45.72 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9ae048f-e4ce-4a11-bab1-bc573b63e62f")
 	)
 	(wire
 		(pts
@@ -4934,16 +5176,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 67.31) (xy 45.72 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9739f29-7033-4d8c-a876-13ac3de9604f")
-	)
-	(wire
-		(pts
 			(xy 50.8 111.76) (xy 50.8 113.03)
 		)
 		(stroke
@@ -4983,16 +5215,6 @@
 		)
 		(uuid "ed089979-e1bd-4869-b146-209ae7f58c97")
 	)
-	(wire
-		(pts
-			(xy 256.54 45.72) (xy 264.16 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed4770c9-c923-42ac-9efb-9156b47f9f87")
-	)
 	(polyline
 		(pts
 			(xy 234.95 127) (xy 180.34 127)
@@ -5003,16 +5225,6 @@
 			(color 72 72 72 1)
 		)
 		(uuid "edea1526-10ab-41cd-9aba-134d7edd0213")
-	)
-	(wire
-		(pts
-			(xy 35.56 30.48) (xy 33.02 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef76f375-52d8-4585-87fc-dcf6a79fd072")
 	)
 	(polyline
 		(pts
@@ -5290,7 +5502,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 245.11 39.37 90)
+		(at 245.11 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5300,7 +5512,7 @@
 		)
 		(uuid "3574571e-7dd4-4ebb-aae5-4e25c0759a5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 32.8772 90)
+			(at 251.6028 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5794,7 +6006,7 @@
 	)
 	(global_label "BAT"
 		(shape input)
-		(at 269.24 45.72 0)
+		(at 245.11 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5804,7 +6016,7 @@
 		)
 		(uuid "aff0e714-c081-4860-bfc6-49244405f829")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.5514 45.72 0)
+			(at 251.4214 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6626,7 +6838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 255.27 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7241,6 +7453,88 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Capacitor_AKL:CP_Radial_D5.0mm_P2.50mm")
+		(at 35.56 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49bc054e-45bd-4629-8564-8a7fbc4b68cf")
+		(property "Reference" "C6"
+			(at 39.37 61.3409 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF"
+			(at 39.37 63.8809 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Radial_D5.0mm_P2.50mm"
+			(at 35.56 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "THT Electrolytic Capacitor, 5.0mm Diameter, 2.50mm Pitch, European Symbol, Alternate KiCad Library"
+			(at 35.56 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b78c432-8f43-4b90-b254-38cbbd46e233")
+		)
+		(pin "2"
+			(uuid "3f90a2c5-132f-4924-ae69-6f9427407339")
+		)
+		(instances
+			(project "Eletronica_v1"
+				(path "/d6e2c628-6853-434f-8065-039c55681e03"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "QTR-1A_REFLECTANCE_SENSOR:QTR-1A_REFLECTANCE_SENSOR")
 		(at 154.94 100.33 0)
 		(unit 1)
@@ -7614,7 +7908,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buck_Converter_4r7:Sem título"
 			(at 78.74 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7669,88 +7963,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 35.56 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ccf7aac-0451-46cf-a047-45de026430c6")
-		(property "Reference" "C6"
-			(at 39.37 62.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 39.37 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 36.5252 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 35.56 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21e7ddbb-e98d-4a35-9c0f-814b320caba3")
-		)
-		(pin "2"
-			(uuid "c08b4574-8144-4e13-9767-475aeeea623c")
-		)
-		(instances
-			(project "Eletronica_v1"
-				(path "/d6e2c628-6853-434f-8065-039c55681e03"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 255.27 58.42 0)
 		(unit 1)
@@ -7784,7 +7996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 255.27 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8240,88 +8452,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 35.56 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85ab8f69-bd81-4f68-b1f1-2b88b1041163")
-		(property "Reference" "C5"
-			(at 39.37 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 39.37 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 36.5252 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 35.56 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65460ec0-b79f-4b33-9cd7-22bacd6f0b56")
-		)
-		(pin "2"
-			(uuid "5725a685-40ef-4bbc-9faa-f63ecc623876")
-		)
-		(instances
-			(project "Eletronica_v1"
-				(path "/d6e2c628-6853-434f-8065-039c55681e03"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TSOP1838:TSOP1838")
 		(at 50.8 100.33 0)
 		(unit 1)
@@ -8585,88 +8715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 256.54 41.91 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c4f70fa-5788-4a1e-b014-e013d7bca9b1")
-		(property "Reference" "C10"
-			(at 252.73 43.1801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 252.73 40.6401 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 255.5748 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 256.54 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d38cee86-710e-4da0-9da0-9f3789ab63f0")
-		)
-		(pin "2"
-			(uuid "4338975b-fcbe-4344-828f-f1a4823509d2")
-		)
-		(instances
-			(project "Eletronica_v1"
-				(path "/d6e2c628-6853-434f-8065-039c55681e03"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 22.86 153.67 180)
 		(unit 1)
@@ -8778,7 +8826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
 			(at 39.37 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8906,88 +8954,6 @@
 			(project "Eletronica_v1"
 				(path "/d6e2c628-6853-434f-8065-039c55681e03"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 264.16 41.91 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98d0b7ac-7f5a-43f3-a16a-fb2854d33dca")
-		(property "Reference" "C11"
-			(at 267.97 43.1801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 267.97 40.6401 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 265.1252 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 264.16 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1efeee0f-c1ea-4800-adae-d4df10cf02b1")
-		)
-		(pin "2"
-			(uuid "acf5574c-ae01-4896-bccd-2f145958b2f1")
-		)
-		(instances
-			(project "Eletronica_v1"
-				(path "/d6e2c628-6853-434f-8065-039c55681e03"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9993,7 +9959,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_Capacitor_AKL:CP_Radial_D5.0mm_P2.50mm")
 		(at 35.56 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -10003,9 +9969,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d264a2a8-69e7-4141-907f-a25418d2c707")
+		(uuid "e4faa89e-644e-4be7-b0b4-ade24f1433b9")
 		(property "Reference" "C4"
-			(at 39.37 33.0199 0)
+			(at 39.37 32.1309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10015,8 +9981,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 39.37 35.5599 0)
+		(property "Value" "10 uF"
+			(at 39.37 34.6709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10026,8 +9992,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 36.5252 38.1 0)
+		(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Radial_D5.0mm_P2.50mm"
+			(at 35.56 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10048,7 +10014,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "THT Electrolytic Capacitor, 5.0mm Diameter, 2.50mm Pitch, European Symbol, Alternate KiCad Library"
 			(at 35.56 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10060,10 +10026,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c93450a-79b4-44a4-b6ae-55580fa6ed23")
+			(uuid "2614b1ec-276e-4dfd-8d17-49b6875bcf8b")
 		)
 		(pin "2"
-			(uuid "816e37df-cda0-41dd-ba3f-91640a0662f8")
+			(uuid "392e3d9e-0d45-47fb-ae74-e670dc04c754")
 		)
 		(instances
 			(project "Eletronica_v1"
@@ -10256,8 +10222,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 260.35 38.1 180)
+		(lib_id "PCM_Capacitor_AKL:CP_Radial_D5.0mm_P2.50mm")
+		(at 35.56 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10266,30 +10232,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fe15435c-7dc3-45e3-bf73-ed28fdf05933")
-		(property "Reference" "#PWR07"
-			(at 260.35 31.75 0)
-			(hide yes)
+		(uuid "f913e67c-c627-420f-8f4c-8f3711cf0313")
+		(property "Reference" "C5"
+			(at 39.37 46.1009 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 260.35 33.02 0)
+		(property "Value" "10 uF"
+			(at 39.37 48.6409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 260.35 38.1 0)
+		(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Radial_D5.0mm_P2.50mm"
+			(at 35.56 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10300,7 +10267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 38.1 0)
+			(at 35.56 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10310,8 +10277,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 38.1 0)
+		(property "Description" "THT Electrolytic Capacitor, 5.0mm Diameter, 2.50mm Pitch, European Symbol, Alternate KiCad Library"
+			(at 35.56 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10322,12 +10289,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c00abc5e-6b90-4788-9737-578673f5493c")
+			(uuid "333c17e4-3a17-4e4b-9427-234a4d66d780")
+		)
+		(pin "2"
+			(uuid "441d07ca-c633-4f29-8f31-92c30038ff1a")
 		)
 		(instances
 			(project "Eletronica_v1"
 				(path "/d6e2c628-6853-434f-8065-039c55681e03"
-					(reference "#PWR07")
+					(reference "C5")
 					(unit 1)
 				)
 			)
